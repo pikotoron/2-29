@@ -69,8 +69,7 @@ int main(void)
 	for (i = 1;i <= 10;i++) {
 		printf("%d\n",i);
 		if (i == 3) break;	/* ループを終了する */
-	}
-	return 0;
+	}	return 0;
 }
 ```
 このプログラムの実行結果は、次の通りになります。
@@ -127,7 +126,7 @@ int main(void)
 {
   int month = 0;
   int money = 0;
-  while (money <= 30) {
+  while (money < 30) {
     month += 1;
     money += 5;
     printf("%dか月目、%d万円。\n",month,money);
