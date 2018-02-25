@@ -113,7 +113,7 @@ int main(void)
   int money = 0; //変数の初期化
   for(i=0; i<4; i++) {
     money += 5;
-    printf("%dか月目、%d円。\n",i+1,money);
+    printf("%dか月目、%d万円。\n",i+1,money);
   }
   return 0;
 }
@@ -130,7 +130,7 @@ int main(void)
   while (money <= 30) {
     month += 1;
     money += 5;
-    printf("%dか月目、%d円。\n",month,money);
+    printf("%dか月目、%d万円。\n",month,money);
   }
   return 0;
 }
